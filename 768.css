@@ -1,0 +1,21 @@
+@media (min-width: 768px) {
+  .cite_theme {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .swiper-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .button {
+    display: flex;
+  }
+  .swiper-pagination {
+    display: none;
+  }
+  .swiper-slide {
+    display: block;
+  }
+}
