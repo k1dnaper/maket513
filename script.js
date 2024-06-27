@@ -12,13 +12,12 @@ function enableSwiper() {
         spaceBetween: 20,
         pagination: {
           el: ".swiper-pagination",
-          type: "bullets",
+          clickable: true
         },
       });
     }
     if (
-      window.innerWidth >= 768 &&
-      document.querySelector(".swiper").classList.contains("swiper-initialized")
+      window.innerWidth >= 768 
     ) {
       mySwiper.enable(false);
       mySwiper.destroy(true, true);

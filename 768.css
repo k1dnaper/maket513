@@ -3,11 +3,14 @@
     display: flex;
     justify-content: flex-start;
   }
-  .swiper-wrapper {
+  .swiper-wrapper, .swiper-slide {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 10px;
+  }
+  .swiper-slide_brand {
+    height: 72px;
+    width: 224px;
   }
   .button {
     display: flex;

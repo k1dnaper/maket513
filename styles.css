@@ -47,7 +47,7 @@ html:before {
   width: 240px;
   border: solid 1px #eaeaea;
   border-radius: 5px;
-  margin-bottom: 32px;
+  margin-bottom: 16px;
 }
 img {
   margin-left: 16px;
@@ -79,4 +79,7 @@ svg {
 }
 .hidden {
   display: none;
+}
+.swiper-pagination {
+  position: relative;
 }
